@@ -1,0 +1,912 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+.card-sticky {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header-sticky {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #03a9f4;
+}
+
+.header-sticky .letter-m {
+    width: 50px;
+    height: 50px;
+    background-color: #dd5a2b;
+    border-radius: 50%;
+    font-size: 29px;
+    font-weight: bold;
+    border: 2px solid #03a9f4;
+    outline: 2px solid #dd5a2b;
+    display: grid;
+    place-items: center;
+    color: #893213;
+    margin-right: 2rem;
+}
+
+.header-sticky .head-multi {
+    color: #dd5a2b;
+    font-size: 55px;
+    text-shadow: 3px 0px 0 #893213;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 1px #893213;
+    font-weight: bold;
+}
+
+
+.img-man {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    position: sticky;
+    top: 0;
+}
+
+.img-man .title-man {
+    width: 80%;
+    font-family: 'Bangers', cursive;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    -webkit-text-stroke: 2px grey;
+    text-shadow: 4px 1px 0 grey;
+}
+
+.title-man div {
+    font-size: 85px;
+    color: #000;
+    word-spacing: 2px;
+}
+
+
+.img-scooby-doo {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(2\).jpg");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.img-scooby-doo .title-scooby-doo {
+    -webkit-text-fill-color: indigo;
+    -webkit-text-stroke: 2px orange;
+    font-size: 150px;
+    text-shadow: 0 0 8px orange;
+    font-family: 'Creepster' , cursive;
+    word-spacing: 39rem;
+}
+
+
+.house-of-cards {
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(3\).jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: end;
+    padding-top: 5rem;
+
+}
+
+.house-of-cards .title-house-of-cards {
+    margin-right: 12rem;
+}
+
+.house-of-cards .title-house-of-cards .house-flag {
+    display: flex;
+    align-items: center;
+    font-family: 'Saira', sans-serif;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.house-flag .house-hc {
+    font-size: 73px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.house-flag .flag {
+    width: 107px;
+    height: 62px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.flag::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 47px;
+    height: 34px;
+    background-color: rgb(10, 69,233);
+}
+
+.flag div {
+    width: 100%;
+    height: 15px;
+    background-color: red;
+}
+
+.flag div:not(:last-child) {
+    margin-bottom: 5%;
+}
+
+.con-hou-cad {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.con-hou-cad .cards-h {
+    font-size: 73px;
+    font-weight: 700;
+    font-family: 'Saira' , sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.con-hou-cad .of-75 {
+    font-size: 73px;
+    font-weight: 300;
+    font-family: 'Saira', sans-serif;
+    color: #fff;
+}
+
+
+.instein-pic {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(4\).jpg");
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    padding-top: 2rem;
+}
+
+.instein-pic .title-inst-pic {
+    color: #000;
+    font-size: 80px;
+    text-shadow: 5px -5px 0 #fff;
+    letter-spacing: 3px;
+}
+
+.background-hitler {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(5\).jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: sticky;
+    top: 0;
+}
+
+.background-hitler .name-hitler {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 4rem;
+}
+
+.name-hitler :is(.first-name , .last-name) {
+    color: #fff;
+    font-size: 100px;
+    letter-spacing: 8px;
+}
+
+.first-name {
+    display: flex;
+    align-items: center;
+}
+
+.first-name .flag-nazi {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: grid;
+    place-items: center;
+}
+
+.first-name .flag-nazi .inside-flag {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+}
+
+.inside-flag .flag-hit-1 {
+    position: absolute;
+    top: 45%;
+    left: 23%;
+    width: 49px;
+    height: 11px;
+    background-color: #000;
+    transform: rotate(45deg);
+}
+
+.flag-hit-1::before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    height: 36px;
+    width: 11px;
+    background-color: #000;
+}
+
+.flag-hit-1::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+    width: 11px;
+    height: 36px;
+    background-color: #000;
+}
+
+.inside-flag .flag-hit-2 {
+    position: absolute;
+    top: 45%;
+    right: 21%;
+    width: 47px;
+    height: 11px;
+    background-color: #000;
+    transform: rotate(-45deg);
+}
+
+.flag-hit-2::before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    height: 36px;
+    width: 11px;
+    background-color: #000;
+}
+
+.flag-hit-2::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+    width: 11px;
+    height: 36px;
+    background-color: #000;
+}
+
+.cat-hope {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(6\).jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.cat-hope .title-cat-hope {
+    margin-right: 8rem;
+    width: 419px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title-cat-hope div:first-child {
+    font-size: 150px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to bottom , #ffc107 , transparent);
+    -webkit-text-stroke: 1px #ffc107;
+    font-weight: bold;
+    width: 395px;
+    height: 169px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-cat-hope div:last-child {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 19px;
+    width: 100%;
+}
+
+.call-of-duty {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(7\).jpg");
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: end;
+}
+
+
+.call-of-duty .title-call-of-duty {
+    margin-top: 5rem;
+    margin-right: 4rem;
+    font-family: 'Anton', sans-serif;
+    height: 156px;
+    width: 672px;
+
+}
+
+.title-call-of-duty .center-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 156px;
+    position: relative;
+}
+
+.title-call-of-duty .center-name .call-name ,
+.title-call-of-duty .center-name .duty-name {
+    color: #fff;
+    font-size: 150px;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+
+.title-call-of-duty .center-name div:nth-child(2) {
+    color: #fff;
+    font-size: 60px;
+}
+
+.title-call-of-duty .center-name .reg {
+    font-size: 17px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.bottom-call-duty {
+    width: 104%;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 34px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13rem;
+}
+
+.tools-games {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.tools-games i {
+    color: #2b2b2b;
+    font-size: 30px;
+    margin-right: 13%;
+    transition: 0.5s;
+}
+
+.tools-games i:hover {
+    color: rgb(127, 207, 6);
+}
+
+.dark-web {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(8\).jpg");
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.dark-web .title-dark-web {
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 150px;
+    padding-left: 2rem;
+    color: #fff;
+    word-spacing: 2rem;
+    text-shadow: 0 0 10px rgb(92 , 188 , 252);
+}
+
+.the-three-ghost {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(9\).jpg");
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 3rem;
+}
+
+.the-three-ghost .title-three-ghost {
+    font-family: 'Rubik Spray Paint', cursive;
+    text-shadow: 0 0 17px #fff;
+    font-size: 100px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.the-three-ghost .logo-three-ghost {
+    width: 53px;
+    height: 50px;
+    color: #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+}
+
+.logo-three-ghost div:first-child {
+    width: 36px;
+    height: 33px;
+    border: 3px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo-three-ghost div:last-child {
+    width: 12px;
+    height: 33px;
+    display: grid;
+    place-items: center;
+    border-bottom: 3px solid #fff;
+}
+
+.the-three-ghost marquee {
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    bottom: 2rem;
+    left: 32rem;
+    display: grid;
+    place-items: center;
+}
+
+marquee p {
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 7px;
+}
+
+
+.sun-and-planets {
+    width: 100%;
+    height: 107vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    position: sticky;
+    top: 0;
+}
+
+.logo-space {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.logo-space i {
+    color: #000;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 33px;
+    display: grid;
+    place-items: center;
+    margin-right: 2rem;
+}
+
+
+.logo-space .head-space {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+.sun-and-planets .planets {
+    width: 470px;
+    height: 470px;
+    border-left: 1px solid #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    position: relative;
+    animation: circling 10s linear infinite ;
+}
+
+.planets:hover {
+    animation-play-state: paused;
+}
+
+.sun-and-planets .earth {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    top: -11%;
+    left: 49%;
+    border-right: 1px solid #fff;
+    display: grid;
+    place-items: center;
+    animation: circling 5s linear infinite;
+}
+
+.earth::before {
+    content: "";
+    position: absolute;
+    bottom: -10%;
+    left: 26%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 10px #fff;
+}
+
+.sun-and-planets .earth .inside-earth {
+    width: 70px;
+    height: 70px;
+    border-radius: inherit;
+    background-color: #03a9f4;
+    box-shadow: 0 0 10px #2196F3;
+}
+
+
+.planets .sun {
+    width: 100px;
+    height: 100px;
+    border-radius: inherit;
+    background-color: #ffc107;
+    box-shadow: 0 0 20px #ffc107;
+}
+
+
+@keyframes circling {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.game-rose {
+    width: 100%;
+    height: 104vh;
+    background-color: #D80032;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.game-rose .head-berry {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.head-berry i {
+    color: #D80032;
+    font-size: 43px;
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+}
+
+
+.head-berry .title-berry {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.game-rose .reward-prize {
+    color: #fff;
+    font-size: 27px;
+    position: absolute;
+    top: 15rem;
+    left: 2rem;
+    line-height: 40px;
+}
+
+.reward-prize span {
+    background-color: #fff;
+    color: #D80032;
+    padding: 5px;
+    border-radius: 6px;
+    font-weight: bold; 
+}
+
+.game-rose .group-cards-berry {
+    width: 350px;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 2rem;
+    position: absolute;
+    top: 10rem;
+    right: 25rem;
+}
+
+.game-rose .group-cards-berry .card-berry ,
+.game-rose .group-cards-berry .card-berry-2 ,
+.game-rose .group-cards-berry .card-berry-3 ,
+.game-rose .group-cards-berry .card-berry-4 ,
+.game-rose .group-cards-berry .card-berry-5 ,
+.game-rose .group-cards-berry .card-berry-6 ,
+.game-rose .group-cards-berry .card-berry-7 ,
+.game-rose .group-cards-berry .card-berry-8 {
+    width: 140px;
+    height: 200px;
+    overflow: hidden;
+}
+
+#check-image ,
+#check-image-2 ,
+#check-image-3 , 
+#check-image-4 ,
+#check-image-5 ,
+#check-image-6 ,
+#check-image-7 ,
+#check-image-8 {
+    display: none;
+}
+
+
+.card-berry .inside-berry ,
+.card-berry-2 .inside-berry-2 ,
+.card-berry-3 .inside-berry-3 ,
+.card-berry-4 .inside-berry-4 ,
+.card-berry-5 .inside-berry-5 ,
+.card-berry-6 .inside-berry-6 ,
+.card-berry-7 .inside-berry-7 ,
+.card-berry-8 .inside-berry-8 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 0.7s;
+}
+
+#check-image:checked + .card-berry .inside-berry {
+    transform: rotateY(180deg);
+}
+
+#check-image-2:checked + .card-berry-2 .inside-berry-2 {
+    transform: rotateY(180deg);
+}
+
+#check-image-3:checked + .card-berry-3 .inside-berry-3 {
+    transform: rotateY(180deg);
+}
+
+#check-image-4:checked + .card-berry-4 .inside-berry-4 {
+    transform: rotateY(180deg);
+}
+
+#check-image-5:checked + .card-berry-5 .inside-berry-5 {
+    transform: rotateY(180deg);
+}
+
+#check-image-6:checked + .card-berry-6 .inside-berry-6 {
+    transform: rotateY(180deg);
+}
+
+#check-image-7:checked + .card-berry-7 .inside-berry-7 {
+    transform: rotateY(180deg);
+}
+
+#check-image-8:checked + .card-berry-8 .inside-berry-8 {
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+.inside-berry .rasp ,
+.inside-berry-2 .rasp ,
+.inside-berry-3 .rasp ,
+.inside-berry-4 .rasp ,
+.inside-berry-5 .rasp ,
+.inside-berry-6 .rasp ,
+.inside-berry-7 .rasp ,
+.inside-berry-8 .rasp {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.inside-berry .front ,
+.inside-berry-2 .front-2 ,
+.inside-berry-3 .front-3 ,
+.inside-berry-4 .front-4 ,
+.inside-berry-5 .front-5 ,
+.inside-berry-6 .front-6 ,
+.inside-berry-7 .front-7 ,
+.inside-berry-8 .front-8 {
+    background-color: #cdcbcb;
+    display: grid;
+    place-items: center;
+    border: 12px solid #fff;
+}
+
+.front i ,
+.front-2 i ,
+.front-3 i ,
+.front-4 i ,
+.front-5 i ,
+.front-6 i ,
+.front-7 i ,
+.front-8 i {
+    font-size: 50px;
+    color: #fff;
+    position: unset;
+}
+
+.inside-berry .back ,
+.inside-berry-2 .back-2 ,
+.inside-berry-3 .back-3 ,
+.inside-berry-4 .back-4 ,
+.inside-berry-5 .back-5 ,
+.inside-berry-6 .back-6 ,
+.inside-berry-7 .back-7 ,
+.inside-berry-8 .back-8 {
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(3\).jpg");
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    transform: rotateY(-180deg);
+}
+
+.inside-berry-2 .back-2 {
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(1\).jpg");
+}
+
+
+.inside-berry-3 .back-3 {
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(7\).jpg");
+}
+
+
+.inside-berry-4 .back-4 {
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(2\).jpg");
+}
+
+.inside-berry-5 .back-5 {
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(7\).jpg");
+}
+
+.inside-berry-6 .back-6 {
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(2\).jpg");
+}
+
+.inside-berry-7 .back-7 {
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(3\).jpg");
+}
+
+.inside-berry-8 .back-8 {
+    background-image: url("../images/wallpaperflare.com_wallpaper\ \(1\).jpg");
+}
+
+
+.footer-page {
+    width: 100%;
+    height: 100px;
+    background-color: #252B48;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    padding: 0 5%;
+    position: sticky;
+    top: 0;
+}
+
+.footer-page .foot-page {
+    display: flex;
+    align-items: center;
+}
+
+.footer-page .foot-page .letter-m {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 29px;
+    font-weight: bold;
+    border: 2px solid #252B48;
+    outline: 2px solid #fff;
+    display: grid;
+    place-items: center;
+    color: #252B48;
+    margin-right: 2rem;
+}
+
+.footer-page .multi-pages {
+    color: #fff;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.footer-page .reserved-foot {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
